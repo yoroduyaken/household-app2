@@ -3,7 +3,7 @@ name: " issue用の template"
 about: issue用の template
 title: ''
 labels: ''
-assignees: ''
+assignees: yoroduyaken
 
 ---
 
