@@ -1,6 +1,6 @@
 # 対応したissue
 
-#xxx
+close #xxx
 
 # レビューしてほしい内容
 
