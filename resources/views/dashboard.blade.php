@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>トップ画面</title>
+    <title>ホーム画面</title>
 </head>
 <style>
 body
@@ -11,7 +11,7 @@ body
         margin:-20px 0px -50px 0px; }
 </style>
 <body>
-    <h1>Household 2へ</h1>
-    <p>This is Top Page.</p>
+    <h1>Household 2</h1>
+    <p>ようこそ Household 2</p>
 </body>
 </html>
