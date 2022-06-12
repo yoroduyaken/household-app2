@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,5 @@ Route::get('/home', function () {
     return view('dashboard');
 })->name('home');
 
-Route::get('/register', [App\Http\Controllers\RegisterController::class, 'create'])
-    ->middleware('guest')
+Route::get('/register', [RegisterController::class, 'create'])
     ->name('register');
-
-Route::post('/register', [App\Http\Controllers\RegisterController::class, 'store'])
-    ->middleware('guest');
