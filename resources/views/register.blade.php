@@ -17,7 +17,7 @@
         <input type="password" name="password" size="30">
 
         <p>パスワード確認</p>
-        <input type="password" name="password_confirmation" size="30"></input>
+        <input type="password" name="password_confirmation" size="30">
 
         <button type="submit">登録</button>
     </form>
