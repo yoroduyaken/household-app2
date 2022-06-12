@@ -1,6 +1,8 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +23,5 @@ Route::get('/home', function () {
     return view('dashboard');
 })->name('home');
 
+Route::get('/register', [RegisterController::class, 'create'])
+    ->name('register');
