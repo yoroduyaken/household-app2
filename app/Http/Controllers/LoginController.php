@@ -8,13 +8,13 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
-  public function index()
-  {
-    return view('auth.login');
-  }
+    public function index()
+    {
+        return view('auth.login');
+    }
   
-  public function store()
-  {
-    return redirect()->route('home');
-  }
+    public function store()
+    {
+        return redirect()->route('home');
+    }
 }
