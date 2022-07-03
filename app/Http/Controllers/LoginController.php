@@ -13,8 +13,12 @@ class LoginController extends Controller
         return view('auth.login');
     }
   
-    public function store()
+    public function store(Request $request)
     {
+        if (!auth()->attempt($request->only('email', 'password'), $request->remember)) {
+            return redirect()->back();
+        }
+        
         return redirect()->route('home');
     }
 }
