@@ -5,9 +5,14 @@
             <title>ログインフォーム</title>
         </head>
         <body>
-            @isset($errors)
-            <p style="color:red">{{ $errors->first('message') }}</p>
-            @endisset
+            @if ($errors->any())
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+            @endif
+
             <form name="loginform" action="/login" method="post">
                 {{ csrf_field() }}
             <dl>
