@@ -22,10 +22,10 @@ class LoginController extends Controller
        ]);
 
         if (!auth()->attempt($request->only('email', 'password'))) {
-            $request->session()->regenerate();
             return redirect()->back();
         } 
-            
+
+        $request->session()->regenerate();    
         return redirect()->route('home');
     }
 }
