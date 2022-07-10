@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Auth;
 
+
 class LoginController extends Controller
 {
     public function index()
@@ -21,9 +22,10 @@ class LoginController extends Controller
        ]);
 
         if (!auth()->attempt($request->only('email', 'password'))) {
-            return redirect()->back();       
-        }
+            return redirect()->back();
+        } 
 
+        $request->session()->regenerate();    
         return redirect()->route('home');
     }
 }
