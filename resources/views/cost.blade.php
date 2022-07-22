@@ -13,14 +13,14 @@
     </dl>
     <dl>
         <dt>金額</dt>
-        <dd><input type="number" name="money" size="30">
+        <dd><input type="number" name="amount" size="30">
     </dl>
     <dl>
         <dt>メモ</dt>
         <dd><textarea name="memo" rows="5" cols="20"></textarea>
     </dl>
     
-        <button type="submit" name='action'>記帳</button>
+        <button type="submit">記帳</button>
     </form>
 </body>
 
