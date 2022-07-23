@@ -4,6 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,6 @@ Route::get('/login', [LoginController::class, 'index'])
     ->name('login');
 
 Route::post('/login', [LoginController::class, 'store']);
+
+Route::get('/cost', [CostController::class, 'index'])
+    ->name('cost');
