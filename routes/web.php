@@ -37,3 +37,5 @@ Route::post('/login', [LoginController::class, 'store']);
 
 Route::get('/cost', [CostController::class, 'index'])
     ->name('cost');
+
+Route::post('/cost', [CostController::class, 'store']);
