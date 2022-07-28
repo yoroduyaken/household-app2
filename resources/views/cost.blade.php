@@ -20,7 +20,7 @@
         <dd><textarea name="memo" rows="5" cols="20"></textarea>
     </dl>
     
-        <button type="submit">記帳</button>
+        <button type="submit" name="action">記帳</button>
     </form>
 </body>
 
