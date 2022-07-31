@@ -5,7 +5,7 @@
     <title>支出入力画面</title>
 </head>
 <body>
-    <form action="/cost"  method="post">
+    <form action="{{ route('cost') }}"  method="post">
         {{ csrf_field() }}
     <dl>
         <dt>タイトル</dt>
@@ -20,7 +20,7 @@
         <dd><textarea name="memo" rows="5" cols="20"></textarea>
     </dl>
     
-        <button type="submit" name="action">記帳</button>
+        <button type="submit">記帳</button>
     </form>
 </body>
 
