@@ -5,7 +5,7 @@
     <title>支出入力画面</title>
 </head>
 <body>
-    <form action="/cost"  method="post">
+    <form action="{{ route('cost') }}"  method="post">
         {{ csrf_field() }}
     <dl>
         <dt>タイトル</dt>
