@@ -9,7 +9,7 @@
         {{ csrf_field() }}
     <dl>
         <dt>タイトル</dt>
-        <dd><input type="text" name="name" size="30">
+        <dd><input type="text" name="title" size="30">
     </dl>
     <dl>
         <dt>金額</dt>
