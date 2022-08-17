@@ -17,6 +17,11 @@ class CostController extends Controller
     {
         $user_id = Auth::id();
         
+        $request->validate([
+            'title' => 'required|string|max:255|min:8',
+            'amount' => 'required|string',
+       ]);
+
         $cost = Cost::create([
             'name' => $request->name,
             'user_id' => $user_id,
