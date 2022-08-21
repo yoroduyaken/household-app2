@@ -18,7 +18,6 @@ class CostController extends Controller
         $request->validate([
             'title' => 'required|string|max:255|min:1',
             'amount' => 'required|string',
-            'memo' => 'required|string|max:255|min:1',
        ]);
         
         $user_id = Auth::id();

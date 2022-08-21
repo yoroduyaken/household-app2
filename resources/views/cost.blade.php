@@ -25,7 +25,7 @@
     </dl>
     <dl>
         <dt>メモ</dt>
-        <dd><textarea type="text" name="memo" rows="5" cols="20" value="{{ old('memo') }}"></textarea>
+        <dd><textarea name="memo" rows="5" cols="20">{{ old('memo') }}</textarea>
     </dl>
     
         <button type="submit">記帳</button>

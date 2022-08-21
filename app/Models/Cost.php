@@ -9,5 +9,12 @@ class Cost extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['user_id', 'title', 'amount','memo','updated_at','created_at'];
+    protected $fillable = [
+        'user_id', 
+        'title', 
+        'amount',
+        'memo',
+        'updated_at',
+        'created_at',
+    ];
 }
