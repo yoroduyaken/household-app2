@@ -15,8 +15,13 @@ class CostController extends Controller
     
     public function store(Request $request)
     {
-        $user_id = Auth::id();
+        $request->validate([
+            'title' => 'required|string|max:255|min:1',
+            'amount' => 'required|string',
+       ]);
         
+        $user_id = Auth::id();
+
         $cost = Cost::create([
             'name' => $request->name,
             'user_id' => $user_id,
