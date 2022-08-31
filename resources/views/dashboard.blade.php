@@ -18,32 +18,38 @@ body
     <caption>支出の内訳について</caption>
         <tr>
             <th>ユーザーID</th>
+            <th>ユーザー名</th>
             <th>タイトル(用途)</th>
             <th>金額</th>
         </tr>
         <tr>
             <td>1</td>
+            <td>test1</td>
             <td>天然水</td>
-            <td>150</td>
+            <td>¥150</td>
         </tr>
         <tr>
             <td>1</td>
+            <td>test1</td>
             <td>サラダチキン</td>
-            <td>280</td>
+            <td>¥280</td>
         </tr>
         <tr>
             <td>2</td>
+            <td>test2</td>
             <td>ラーメン二郎</td>
-            <td>950</td>
+            <td>¥950</td>
         </tr>
         <tr>
             <td>2</td>
+            <td>test2</td>
             <td>マグロ5巻</td>
-            <td>1150</td>
+            <td>¥1150</td>
         </tr><tr>
             <td>3</td>
+            <td>test3</td>
             <td>よっちゃんいか</td>
-            <td>100</td>
+            <td>¥100</td>
         </tr>
     </table>
 
