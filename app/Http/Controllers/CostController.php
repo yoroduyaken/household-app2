@@ -11,6 +11,7 @@ class CostController extends Controller
 {
     public function index()
     {
+        $cost = Cost::all();
         return view ('cost');
     } 
     
