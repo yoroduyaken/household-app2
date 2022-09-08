@@ -12,7 +12,8 @@ class CostController extends Controller
     public function index()
     {
         $cost = Cost::all();
-        return view ('cost');
+        dump($cost);
+        return view ('dashboard',compact('cost'));
     } 
     
     public function store(CostRequest $request)
