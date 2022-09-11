@@ -12,6 +12,7 @@ class HomeController extends Controller
     {
         $costs = Cost::all();
         return view('home', compact('costs'));
+        // return view('home', with(['costs' => $all_costs]));
     }
 
 }
