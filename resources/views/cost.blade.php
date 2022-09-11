@@ -13,6 +13,7 @@
         </ul>
     @endif
 
+    
     <form action="{{ route('cost') }}"  method="post">
         {{ csrf_field() }}
     <dl>
