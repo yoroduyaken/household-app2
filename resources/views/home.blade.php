@@ -22,7 +22,6 @@ body
             <th>作成日</th>
         </tr>
         @foreach ($costs as $cost)
-        {{ $cost }}
         <tr>
             <td>{{ $cost->id }}</td>
             <td>{{ $cost->title }}</td>
