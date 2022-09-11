@@ -13,8 +13,7 @@
         </ul>
     @endif
 
-    @foreach ($query_cost as $cost)
-        {{ $cost }}
+    
     <form action="{{ route('cost') }}"  method="post">
         {{ csrf_field() }}
     <dl>
@@ -32,7 +31,6 @@
     
         <button type="submit">記帳</button>
     </form>
-    @endforeach  
 </body>
 
 </html>
