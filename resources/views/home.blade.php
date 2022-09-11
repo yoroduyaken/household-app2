@@ -13,7 +13,7 @@ body
 <body>
     <h1>Household 2</h1>
     <p>ようこそ Household 2へ</p>
-
+        {{ $costs }}
     <table border="3" cellpadding="6" cellspacing="0">
     <caption>支出の内訳について</caption>
         <tr>
