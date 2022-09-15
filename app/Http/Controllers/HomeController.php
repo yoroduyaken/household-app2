@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index()
     {
         // $costs = Cost::all();
-        $costs = Cost::orderBy('id', 'desc')->get();
+        $costs = Cost::orderBy('id', 'desc')->take(5)->get();
         return view('home', compact('costs'));
         // return view('home', with(['costs' => $all_costs]));
     }
