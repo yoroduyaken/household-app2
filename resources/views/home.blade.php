@@ -13,9 +13,6 @@ body
 <body>
     <h1>Household 2</h1>
     <p>ようこそ Household 2へ</p>
-
-    <a href="http://localhost/cost">記帳</a>
-    
     <table border="3" cellpadding="6" cellspacing="0">
     <caption>支出の内訳について</caption>
         <tr>
