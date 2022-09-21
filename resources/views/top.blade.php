@@ -11,7 +11,10 @@ body
         margin:-20px 0px -50px 0px; }
 </style>
 <body>
-    <h1>Household 2へ</h1>
+    <h1>Household 2</h1>
     <p>This is Top Page.</p>
+
+    <a href="http://localhost/login">ログイン</a>
+    <a href="http://localhost/register">会員登録</a>
 </body>
 </html>
