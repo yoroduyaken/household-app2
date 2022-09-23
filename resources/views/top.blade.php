@@ -14,7 +14,7 @@ body
     <h1>Household 2</h1>
     <p>This is Top Page.</p>
 
-    <a href="http://localhost/login">ログイン</a>
-    <a href="http://localhost/register">会員登録</a>
+    <a href="{{ route('login') }}">ログイン</a>
+    <a href="{{ route('register') }}">会員登録</a>
 </body>
 </html>
