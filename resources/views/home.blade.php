@@ -15,6 +15,7 @@ body
     <p>ようこそ Household 2へ</p>
 
     <a href="{{ route('cost') }}">記帳</a>
+    <a href="{{ route('logout') }}">ログアウト</a>
     
     <table border="3" cellpadding="6" cellspacing="0">
     <caption>支出の内訳について</caption>
