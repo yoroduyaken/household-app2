@@ -20,7 +20,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
     return view('top');
-});
+})->name('top');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
@@ -33,6 +33,10 @@ Route::get('/login', [LoginController::class, 'index'])
     ->name('login');
 
 Route::post('/login', [LoginController::class, 'store']);
+
+Route::get('/logout', [LoginController::class, 'logout'])
+    ->middleware('auth')
+    ->name('logout');
 
 Route::get('/cost', [CostController::class, 'index'])
     ->name('cost');
