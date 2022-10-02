@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>ホーム画面</title>
+    <title>マイページ</title>
 </head>
 <style>
 body
