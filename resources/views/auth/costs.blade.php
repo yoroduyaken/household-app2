@@ -13,7 +13,6 @@ body
 <body>
     <h1>Household 2</h1>
     <p>ようこそ マイページへ</p>
-
     <a href="{{ route('cost') }}">記帳</a>
     <a href="{{ route('logout') }}">ログアウト</a>
     
