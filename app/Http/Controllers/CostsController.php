@@ -12,6 +12,6 @@ class CostsController extends Controller
     {
         $costs = Cost::where('user_id', Auth::user()->id)->get();
         
-        return view('auth.costs',compact('costs'));
+        return view('costs',compact('costs'));
     } 
 }
