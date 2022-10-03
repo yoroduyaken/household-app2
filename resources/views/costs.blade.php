@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>ホーム画面</title>
+    <title>マイページ</title>
 </head>
 <style>
 body
@@ -12,9 +12,7 @@ body
 </style>
 <body>
     <h1>Household 2</h1>
-    <p>ようこそ Household 2へ</p>
-
-    <a href="{{ route('costs') }}">マイページ</a>
+    <p>ようこそ マイページへ</p>
     <a href="{{ route('cost') }}">記帳</a>
     <a href="{{ route('logout') }}">ログアウト</a>
     

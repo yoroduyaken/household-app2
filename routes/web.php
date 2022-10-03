@@ -6,6 +6,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CostController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CostsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +43,6 @@ Route::get('/cost', [CostController::class, 'index'])
     ->name('cost');
 
 Route::post('/cost', [CostController::class, 'store']);
+
+Route::get('/costs', [CostsController::class, 'index'])
+    ->name('costs');
