@@ -46,6 +46,3 @@ Route::post('/cost', [CostController::class, 'store']);
 
 Route::get('/costs', [CostsController::class, 'index'])
     ->name('costs');
-
-Route::get('/costs/1', [CostsController::class, 'show'])
-    ->name('costs.1');
